@@ -1,23 +1,29 @@
-import React from 'react'
-import CartWidget from '../CartWidget/CartWidget';
+import { Link, NavLink } from "react-router-dom";
+import CartWidget from "../CartWidget/CartWidget";
 import "./NavBar.css";
 
 const NavBar = () => {
   return (
     <header>
-      <h1>Mas que Suculentas</h1>
+      <Link className="estilosLink" to="/">
+        <h1>Mas que Suculentas</h1>
+        <img className="estilosLogo" src={"../img/logo.jpg"} alt="Suculentas y Cactus"/>
+      </Link>
 
       <nav>
         <ul>
-          <li>Suculentas</li>
-          <li>Cactus</li>
-          <li>Aromáticas</li>
+          <li>
+            <NavLink className="estilosLink" to="categoria/Suculentas">Suculentas</NavLink>
+          </li>
+          <li>
+            <NavLink className="estilosLink" to="categoria/Cactus">Cactus</NavLink>
+          </li>
         </ul>
       </nav>
 
-      <CartWidget/>
+      <CartWidget />
     </header>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;

@@ -2,8 +2,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid black;
-    background-color: rgb(236, 196, 236);
+    border-bottom: 4px solid rgb(122, 193, 171);
+    background-color: rgb(188, 246, 219);
     padding: 0 10px 0 10px;
     width: 100%;
     min-height: 13vh;
@@ -15,12 +15,17 @@ li {
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    border: 1px solid rgba(116, 50, 105, 0.999);
+    border: 1.5px solid rgba(116, 50, 105, 0.999);
     transition: border-color .3s ease-in-out;
     
 }
 
 li:hover {
-    border-color: rgb(212, 246, 200);
+    border-color: rgb(122, 193, 171);
+}
+
+.estilosLogo {
+    width: 5.5rem;
+    display: flex;
 }
 

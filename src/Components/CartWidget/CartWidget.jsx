@@ -3,7 +3,7 @@ import "./CartWidget.css";
 
 
 const CartWidget = () => {
-  const imgCarrito = "https://previews.123rf.com/images/yupiramos/yupiramos1705/yupiramos170514697/77979807-carrito-de-la-compra-s%C3%ADmbolo-icono-ilustraci%C3%B3n-vectorial-dise%C3%B1o-gr%C3%A1fico.jpg"
+  const imgCarrito = "https://img.freepik.com/vector-gratis/ilustracion-compras-linea_53876-5906.jpg?w=740&t=st=1698526836~exp=1698527436~hmac=ebec953b4a7540acf05fa9648fda74ab84fa9456e312c83527b2c666d6683dcd"
 
   return (
     <div>

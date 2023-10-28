@@ -1,5 +1,5 @@
 :root {
-    font-family: cursive;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 * {
@@ -11,4 +11,25 @@
 body {
     font-size: 62.5%;
     min-height: 100vh;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem 1rem 0 1rem;
+    color: rgb(62, 95, 84)
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+h3 {
+    margin: 1rem;
+    font-size: .8rem;
+}
+
+.estilosLink {
+    text-decoration: none;
+    color: rgb(33, 33, 33)
 }

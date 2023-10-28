@@ -1,0 +1,18 @@
+.itemContainer {
+    text-align: center;    
+    border-radius: .8rem;  
+    margin: 2rem 28rem;
+    padding: 1rem;
+    background-color: rgb(122, 193, 171);
+}
+
+img {
+    width: 25vw;
+    padding: 1rem;
+    border-radius: 1.3rem;
+}
+
+.itemContainer p {
+    font-size: .8rem;
+}
+
