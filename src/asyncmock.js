@@ -1,6 +1,7 @@
 const misProductos = [{
         id: "1",
         nombre: "Suculenta Rosario",
+        stock: 10,
         precio: 1000,
         img: "../img/suculentaRosario.jpg",
         idCat: "Suculentas"
@@ -8,6 +9,7 @@ const misProductos = [{
     {
         id: "2",
         nombre: "Suculenta Oreja de Shrek",
+        stock: 10,
         precio: 1500,
         img: "../img/orejaShrek.jpg",
         idCat: "Suculentas"
@@ -15,6 +17,7 @@ const misProductos = [{
     {
         id: "3",
         nombre: "Arbol de Jade",
+        stock: 10,
         precio: 1200,
         img: "../img/arbolJade.jpg",
         idCat: "Cactus"
@@ -22,6 +25,7 @@ const misProductos = [{
     {
         id: "4",
         nombre: "Suculenta Cola de Burro",
+        stock: 10,
         precio: 1250,
         img: "../img/suculentaColaDeBurro.jpg",
         idCat: "Cactus"
