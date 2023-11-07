@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Contador = (inicial, stock, funcionAgregar) => {
+const Contador = ({inicial, stock, funcionAgregar}) => {
   const [contador, setContador] = useState(inicial);
 
   const sumarContador = () => {
