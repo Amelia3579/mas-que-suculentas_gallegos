@@ -1,6 +1,7 @@
 import { useState } from "react";
+import "./Counter.css";
 
-const Contador = (inicial, stock, funcionAgregar) => {
+const Counter = ({inicial, stock, funcionAgregar}) => {
   const [contador, setContador] = useState(inicial);
 
   const sumarContador = () => {
@@ -17,16 +18,16 @@ const Contador = (inicial, stock, funcionAgregar) => {
 
   return (
     <>
-      <div>
-        <button onClick={restarContador}> - </button>
-        <strong> {contador} </strong>
-        <button onClick={sumarContador}> + </button>
+      <div className="estilosContador">
+        <button className="estilosBotonAcc" onClick={restarContador}> - </button>
+        <strong className="estilosBotonCont"> {contador} </strong>
+        <button  className="estilosBotonAcc" onClick={sumarContador}> + </button>
       </div>
-      <button onClick={() => funcionAgregar(contador)}>
+      <button className="estilosBotonComprar" onClick={() => funcionAgregar(contador)}>
         Agregar al Carrito
       </button>
     </>
   );
 };
 
-export default Contador;
+export default Counter;

@@ -1,5 +1,14 @@
 :root {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    --primary: #f6f6f6;
+    --secondary: #1E1E1E;
+    --tertiary: #BCF6DB;
+    --quaternary: #F8D7F8;
+    --quinary: #E189E1;
+    --senary: #7AC1AB;
+    --text-lg: 2em;
+    --text-md: 1.8em;
+    --text-sm: 1em;
 }
 
 * {
@@ -9,27 +18,50 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-size: 62.5%;
     min-height: 100vh;
+    background-color: var(--primary);
 }
 
 h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 1rem 1rem 0 1rem;
-    color: rgb(62, 95, 84)
+    padding: .8rem 1rem 0 1rem; 
+    color: var(--secondary);
+    text-decoration: none;
 }
 
 h2 {
-    font-size: 1.3rem;
-    margin-left: 1rem;
+    text-align: center;
+    font-size:medium;
+    font-weight:bold;
+    margin: 2rem 0 2rem 0;
 }
 
 h3 {
-    margin: 1rem;
-    font-size: .8rem;
+    font-size:small;
+    margin: .5rem;
+    text-align: center;
 }
 
-.estilosLink {
+h4 {
+    font-size: small;
+    margin: 3rem 1rem 2rem 1rem;
+}
+
+.estilosBotonLink {
+    width: 20vw;
     text-decoration: none;
-    color: rgb(33, 33, 33)
+    font-size: .6rem;
+    border: none;
+    border-radius: 10px;
+    padding: .8rem;
+    margin: .5rem;
+    background-color: var(--tertiary);
+    color: var(--secondary);
+}
+
+Link {
+    text-decoration: none;
 }

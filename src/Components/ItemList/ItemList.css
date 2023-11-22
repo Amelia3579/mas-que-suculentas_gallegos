@@ -1,4 +1,26 @@
-.contenedorProductos {
+.contenedorCards {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
 }
+
+@media (max-width:320px) {
+    .contenedorCards {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        
+    }
+}
+
+@media (max-width:768px) {
+    .contenedorCards {
+        display: flex;
+        align-items: center;
+        justify-content: center;     
+    }
+}
+

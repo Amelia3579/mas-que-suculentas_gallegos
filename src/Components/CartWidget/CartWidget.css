@@ -1,7 +1,13 @@
 .imgCarrito {
-    width: 80px;
+    width: 4.5rem;
 }
 
 strong {
-    color: rgb(62, 95, 84)
+    color: var(--secondary);
+}
+
+@media (max-width:320px) {
+    .imgCarrito {
+        width: 4rem;
+    }
 }

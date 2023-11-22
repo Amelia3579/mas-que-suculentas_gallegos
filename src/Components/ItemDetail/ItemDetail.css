@@ -1,18 +1,50 @@
 .itemContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;    
+    min-width: 13rem;
     border-radius: .8rem;  
-    margin: 2rem 28rem;
+    margin: 2rem auto;
     padding: 1rem;
-    background-color: rgb(122, 193, 171);
+    background-color: var(--senary);
+    width: 30vw;
+    box-shadow: 0px 1px 10px #2b413a;
 }
 
 img {
-    width: 25vw;
+    width: 20vw;
     padding: 1rem;
     border-radius: 1.3rem;
 }
 
 .itemContainer p {
-    font-size: .8rem;
+    font-size:small;
 }
 
+.estilosLink {
+    display: flex;
+}
+
+.estilosBotonLink {
+    width: 10vw;
+    text-decoration: none;
+    font-size:small;
+    border: none;
+    border-radius: 10px;
+    padding: .8rem;
+    margin: .5rem;
+    background-color: var(--tertiary);
+    color: var(--secondary);
+}
+
+
+@media (max-width:320px) {
+    img {
+        width: 50vw;
+    }
+
+    .estilosBotonLink {
+        font-size: .8em;
+    }
+}

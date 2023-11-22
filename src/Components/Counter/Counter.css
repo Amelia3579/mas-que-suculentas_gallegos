@@ -1,0 +1,32 @@
+.estilosContador {
+    width: 20rem;
+}
+
+.estilosBotonAcc {
+    border: none;
+    border-radius: .2rem;
+    padding: .4rem;
+    background-color: var(--tertiary);
+    margin: .5rem;
+    font-weight: bold;
+}
+
+.estilosBotonCont {
+    color: var(--secondary);
+    font-size: .8rem;
+}
+
+.estilosBotonComprar {
+    width: 10vw;
+    border: none;
+    border-radius: 10px;
+    padding: .8rem;
+    background-color: var(--tertiary);
+}
+
+@media (max-width:320px) {
+    .estilosBotonComprar {
+        width: 22vw;
+        font-size: 1em;
+    }
+}

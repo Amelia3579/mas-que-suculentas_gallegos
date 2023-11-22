@@ -2,8 +2,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 4px solid rgb(122, 193, 171);
-    background-color: rgb(188, 246, 219);
+    border-bottom: 4px solid var(--senary);
+    background-color: var(--tertiary);
     padding: 0 10px 0 10px;
     width: 100%;
     min-height: 13vh;
@@ -15,13 +15,25 @@ li {
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    border: 1.5px solid rgba(116, 50, 105, 0.999);
+    border: 1.5px solid var(--secondary);
     transition: border-color .3s ease-in-out;
-    
+
 }
 
 li:hover {
-    border-color: rgb(122, 193, 171);
+    border-color: var(--senary);
+}
+
+.estilosLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.estilosNavLink {
+    text-decoration: none;
+    color: var(--secondary);
 }
 
 .estilosLogo {
@@ -29,3 +41,22 @@ li:hover {
     display: flex;
 }
 
+@media (max-width:320px) {
+    header {
+        width: 100%;
+        justify-content: center;
+
+        .estilosLink h1 {
+            font-size: small;
+        }
+
+        .estilosNavLink {
+            display: flex;
+            font-size: .9em;
+        }
+
+        .estilosLogo {
+            width: 5rem;
+        }
+    }
+}
