@@ -1,7 +1,11 @@
 import { useState } from "react";
 import "./Counter.css";
 
+<<<<<<< HEAD
 const Counter = ({inicial, stock, funcionAgregar}) => {
+=======
+const Contador = ({inicial, stock, funcionAgregar}) => {
+>>>>>>> 7dfe8fa7e0dc9f3733a2e8880f273f5489be2490
   const [contador, setContador] = useState(inicial);
 
   const sumarContador = () => {
