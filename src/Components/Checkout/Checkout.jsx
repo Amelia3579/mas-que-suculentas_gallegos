@@ -25,7 +25,7 @@ const Checkout = () => {
     setEmailConfir("");
 
     if (!nombre || !apellido || !telefono || !email || !emailConfir) {
-      setError("Todos los campos tienen que estar completos");
+      setError("Por favor, completá todos los campos");
       return;
     }
 
@@ -143,7 +143,10 @@ const Checkout = () => {
               placeholder="meli@yahoo.com"
             />
 
-            {error && <p style={{ color:"green"}}> {error} </p>}
+            {
+            error && <p style={{ color:"green"}}> {error} </p>
+            } 
+            
 
             {ordenId == 0 ? (
               <button type="submit" className="estilosBotonLink">
