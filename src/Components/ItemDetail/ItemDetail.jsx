@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Counter from "../Counter/Counter";
 import { Link } from "react-router-dom";
 import { CarritoContext } from "../../context/CarritoContext";
 import { useContext } from "react";
